@@ -42,6 +42,27 @@ public class Example {
         
         //output
         //SampleToRepeatSampleToRepeatSampleToRepeatSampleToRepeat
+        
+        
+        //stripLeading -- removed leading white spaces
+        String str = "   leading spave--";
+        System.out.println(str.stripLeading());
+        //output:
+        //leading spave--
+        
+        //stripTraling --removes white spaces from end
+        String strTrail = "--trailing space     ";
+        System.out.println(strTrail.stripTrailing());
+        //output
+        //--trailing space
+
+        
+        //strip -- removes white spaces from both end front and back
+        String bothFrontBack = "    Frontback white spaces      ";
+        System.out.println(bothFrontBack.strip());
+        
+        //output
+        //Frontback white spaces
 	}
 
 }
