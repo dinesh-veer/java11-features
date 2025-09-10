@@ -42,7 +42,7 @@ public class Example {
 		
 		var myList = new ArrayList<Map<String, List<Integer>>>();
 		for (var current : myList) {
-			// current is infered to type: Map<String, List<Integer>>
+			// current is inferred to type: Map<String, List<Integer>>
 			System.out.println(current);
 		}
 		
